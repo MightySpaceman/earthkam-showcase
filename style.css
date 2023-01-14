@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+body {
+    background-color: rgb(7, 0, 14);
+    color: white;
+    font-family: 'Source Code Pro', serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 60px;
+}
+
+.description {
+    padding: 50px;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description p {
+    text-align: justify;
+    font-size: 22px;
+}
+
+.images {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.images img {
+    width: 500px;
+    margin: 10px;
+}
+
+.animate {
+    filter: blur(5px);
+    opacity: 0;
+    transform: translateX(-10%);
+    transition: all 1.5s;
+}
+
+.show {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
