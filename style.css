@@ -11,6 +11,14 @@ h1 {
     margin: 60px;
 }
 
+a {
+    color: white;   
+}
+
+a:visited {
+    text-decoration: none;
+}
+
 .description {
     padding: 50px;
     width: 84%;
