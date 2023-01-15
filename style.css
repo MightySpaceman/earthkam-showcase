@@ -8,12 +8,12 @@ body {
 }
 
 h1 {
-    font-size: 4vh;
-    margin: 7.5vh;
+    font-size: 2.5vmax;
+    margin: 4vmin;
 }
 
 p {
-    font-size: 1.75vh;
+    font-size: 2.5vmin;
 }
 
 a {
@@ -25,8 +25,8 @@ a:visited {
 }
 
 .description {
-    padding: 7vh;
-    width: 84%;
+    padding: 0;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -34,21 +34,6 @@ a:visited {
 .description p {
     text-align: justify;
     font-size: 2.5vh;
-}
-
-.images {
-    text-align: center;
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1vh;
-}
-
-.images img {
-    width: 50vh;
-    margin: 1vh;
 }
 
 .animate {
@@ -63,5 +48,45 @@ table {
     opacity: 1;
     transform: translateX(0);
 }
+
+.container {
+    padding: 1vw;
+    align-items: center;
+    text-align: center;
+    margin: 1vw;
+    height: 100vh;
+}
+
+section {
+    height: 65vmin;
+
+}
+
+section p {
+    margin: 1vw;
+    font-size: 3vmin;
+}
+
+section img {
+    width: 40vmax;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Blinker */
+#blink {
+    animation: blinker 1s step-start infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 
 
